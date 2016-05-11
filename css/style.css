@@ -1,0 +1,44 @@
+ul {
+	vertical-align: middle;
+	float: right;
+	list-style: none;
+	margin-left: auto; 
+	margin-right: 15%;
+}
+
+li {
+    font-size: 1.2em;
+    list-style: none;
+    font-family: roboto;
+    display: inline-block;
+    margin-left: 1.5em;
+	}
+
+nav {
+	border-bottom: solid 1px chocolate;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    height: 4.375em;
+    margin-left: 15%;
+}
+.links {
+	display: inline-block;
+	vertical-align: middle;
+	float: right;
+    color: #838994;
+    font-size: 1em;
+}
+
+.active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.centered {
+	width: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
