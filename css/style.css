@@ -1,3 +1,7 @@
+html {
+	box-sizing: border-box;
+}
+
 ul {
 	vertical-align: middle;
 	float: right;
@@ -9,36 +13,40 @@ ul {
 li {
     font-size: 1.2em;
     list-style: none;
-    font-family: roboto;
+    font-family: 'Roboto';
     display: inline-block;
-    margin-left: 1.5em;
+    margin-left: 1.5rem;
 	}
 
 nav {
 	border-bottom: solid 1px chocolate;
+	height: 50px;
+	margin-left: -10px;
+	margin-right: -10px;
+
 }
 
 .logo {
-    display: inline-block;
-    vertical-align: middle;
-    height: 4.375em;
     margin-left: 15%;
+    margin-top: 1px
 }
+
+.content {
+	min-width: 48rem;
+	max-height: 4.375rem;
+}
+
 .links {
 	display: inline-block;
 	vertical-align: middle;
 	float: right;
     color: #838994;
     font-size: 1em;
+    margin-right: 15%;
+    margin-top: 9px;
 }
 
 .active {
     color: #4c5058;
     font-weight: 500;
-}
-
-.centered {
-	width: 5%;
-	margin-left: auto;
-	margin-right: auto;
 }
