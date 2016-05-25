@@ -20,6 +20,7 @@ li {
 	}
 
 nav {
+	display: block;
 	border-bottom: solid 1px chocolate;
 	height: 50px;
 	margin-left: -10px;
@@ -51,3 +52,33 @@ nav > .active {
     color: #4c5058;
     font-weight: 900;
 }
+
+body {
+	background-image: url(img/intro_background.jpg); no-repeat ;
+	background-attachment: fixed;
+}
+
+.introduction {
+    background-image: url(../img/intro_background.jpg);
+    background-position: 0 bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 42rem;
+    width: 80.5rem;
+    margin-left: -1%;
+    text-align: center;
+    display: block;
+}
+
+h1 {
+	display: inline-block;
+	color: white;
+	margin-top:17.5rem;
+	font-size: 3.125rem;
+	font-family: 'Roboto'
+}
+ h3 {
+ 	display: inline-block;
+ 	color: white;
+ 	font-family: 'Roboto'
+ }
