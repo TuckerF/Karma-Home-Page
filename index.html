@@ -2,37 +2,58 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
 	<title>Document</title>
 </head>
 <body>
 	<nav class="floating_menu">
-		<div class="content">
-			<ul class="links">
-				<li class="active">Meet Karma</li>
-				<li>How it Works</li>
-				<li>Store</li>
-				<li>Blog</li>
-				<li>Help</li>
-				<li>Login</li>
+		<section class="content">
+			<ul class="links" id="list">
+				<li id="separate" class="active">Meet Karma</li>
+				<li id="separate">How it Works</li>
+				<li id="separate">Store</li>
+				<li id="separate">Blog</li>
+				<li id="separate">Help</li>
+				<li id="separate">Login</li>
 		</ul>
-		</div>
 		<img class="logo" src="img/logo.svg" alt="logo image" width="26">
+		</section>
 	</nav>
-	<div class="introduction">
+	<section class="introduction">
 		<div class="content">
-			<section><h1 class="intro_h1">Introducing Karma</h1></section>
-			<section><h3 class="intro_h2">Bring WiFi with you everywhere you go.</h3></section>
+			<h1 class="intro_h1">Introducing Karma</h1>
+			<h3 class="intro_h2">Bring WiFi with you everywhere you go.</h3>
 			<button class="button">Learn More</button>
-	</div>
-		
-	<h2 class="icon_h2">Everyone needs a little Karma.</h2>
-	<div class="logos">
-		<section class="logo_img"><img src="img/icon_refill.svg"></section>
-		<section class="logo_img"><img src="img/icon_devices.svg"></section>
-		<section class="logo_img"><img src="img/icon_coffee.svg"></section>
-	</div>
+		</div>
+	</section>
+
+	<section class="logos">
+		<div class="content">
+			<h2 class="icon_h2">Everyone needs a little Karma.</h2>
+			<ul class="devices">
+				<li id="position_li">
+					<img width="127" height="125" src="img/icon_devices.svg">
+					<div>
+						<h3 class="caption">Internet for all devices</h3>
+					</div>
+				</li>
+				<li id="position_li">
+					<img width="127" height="125" src="img/icon_coffee.svg">
+					<div>
+						<h3 class="caption">Boost your <br> productivity</h3>
+					</div>
+				</li>
+				<li id="position_li">
+					<img cwidth="127" height="125" src="img/icon_refill.svg">
+					<div>
+						<h3 class="caption">Pay as you go</h3>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
 		
 </body>
 </html> 
