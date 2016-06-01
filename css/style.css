@@ -12,61 +12,52 @@ section {
 	padding: 0;
 }
 
-#list {
-	vertical-align: middle;
-	float: right;
-	list-style: none; 
-	margin-right: 280px;
-	margin-top: 10px;
-}
-
-li {
-    font-size: 1.2em;
+.links {
+    font-size: 1.1em;
+    padding:0 20px;
+    padding-top: 8px;
     list-style: none;
     font-family: 'Roboto';
     display: inline-block;
 	}
 
-nav {
-	border-bottom: solid 1px chocolate;
-	height: 3rem;
-	width: 100%;
-
-}
-
-nav > .logo {
-	display: inline-block;
-	float: right; 
-}
-
-nav > .content {
+.logo {
+	float: left;
+	display: inline block;
+	vertical-align: center;
 	height: 3rem;
 }
 
-.floating_menu {
+.floating_navigation {
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
 	top:0;
-	padding: 10px 0px;
 	background-color: white;
-	height: 3rem;
+	height: 4.4rem;
+	border-bottom: solid 1px #F25C2A;
 }
 
-nav >.links {
-	vertical-align: middle;
-	float: right;
-    color: #838994;
-    font-size: .9em;
-    width: 736px;
+#standardize_ul {
+	width: 70%;
+	height: 4.4rem;
+	padding-left: 0;
+	display: inline-block;
 }
 
-#separate {
-	margin-right: 10px;
-	margin-left: 10px;
+#size {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 900px;
 }
 
-nav > .active {
+#standardize_img {
+	width: 30%;	padding-left: 0;
+	display: inline-block;
+	margin-top: 10px;
+}
+.active {
     color: #4c5058;
     font-weight: 900;
 }
@@ -151,6 +142,58 @@ nav > .active {
  }
 
  #position_li {
- 	    width: 33.3333333%;
-    	float: left;
+ 	width: 33.3333333%;
+   	float: left;
+   	list-style-type: none;
+   	display: inline-block;
+ }
+
+ .social_icons {
+	display: inline-block;
+	list-style-type: none;
+	padding-left: 0px;
+ 	width: 200px;
+ 	display: inline-block;
+ 	margin-top: 25px;
+ }
+
+ #twitter {
+ 	border-radius: 1.25rem;
+ 	width: 2.5rem;
+ 	height: 2.5rem;
+ 	border: 1px solid #F25C2A;
+ 	cursor: pointer;
+ 	color: #55acee;
+ }
+
+  #facebook {
+ 	border-radius: 1.25rem;
+ 	width: 2.5rem;
+ 	height: 2.5rem;
+ 	border: 1px solid #F25C2A;
+ 	cursor: pointer;
+ 	color: #3f729b;
+ }
+
+  #instagram {
+ 	border-radius: 1.25rem;
+ 	width: 2.5rem;
+ 	height: 2.5rem;
+ 	border: 1px solid #F25C2A;
+ 	cursor: pointer;
+ 	color: #3f729b;
+ }
+
+hr {
+ 	border: 0;
+    border-top: 1px solid #F25C2A;
+    margin: 1.313rem 0;
+    width: 750px;
+    margin:6rem 4rem auto auto;
+    margin-right: 287px;
+ }
+
+ h5 {
+ 	font-family: 'Roboto';
+ 	font-size: 1.1rem;
  }
