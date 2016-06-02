@@ -21,6 +21,17 @@ section {
     display: inline-block;
 	}
 
+.links:hover {
+    font-size: 1.1em;
+    padding:0 20px;
+    padding-top: 8px;
+    list-style: none;
+    font-family: 'Roboto';
+    display: inline-block;
+    opacity:.4;
+    cursor: pointer;
+	}
+
 .logo {
 	float: left;
 	display: inline block;
@@ -57,7 +68,7 @@ section {
 	display: inline-block;
 	margin-top: 10px;
 }
-.active {
+#active {
     color: #4c5058;
     font-weight: 900;
 }
@@ -135,7 +146,7 @@ section {
  }
 
  .devices {
- 	padding-left: 0px;
+ 	padding-left: 40px;
  	width: 800px;
  	display: inline-block;
  	margin-top: 25px;
@@ -148,52 +159,76 @@ section {
    	display: inline-block;
  }
 
+ #position_social {
+   	float: center;
+   	list-style-type: none;
+   	display: inline-block;
+   }
+
  .social_icons {
 	display: inline-block;
 	list-style-type: none;
 	padding-left: 0px;
  	width: 200px;
  	display: inline-block;
- 	margin-top: 25px;
+ 	margin-top: 0px;
  }
 
  #twitter {
- 	border-radius: 1.25rem;
- 	width: 2.5rem;
- 	height: 2.5rem;
- 	border: 1px solid #F25C2A;
- 	cursor: pointer;
  	color: #55acee;
+ 	margin-top: 13px;
  }
 
   #facebook {
- 	border-radius: 1.25rem;
- 	width: 2.5rem;
- 	height: 2.5rem;
- 	border: 1px solid #F25C2A;
- 	cursor: pointer;
  	color: #3f729b;
+ 	margin-top: 13px;
  }
 
   #instagram {
- 	border-radius: 1.25rem;
- 	width: 2.5rem;
- 	height: 2.5rem;
- 	border: 1px solid #F25C2A;
- 	cursor: pointer;
  	color: #3f729b;
+ 	margin-top: 13px;
  }
 
 hr {
  	border: 0;
     border-top: 1px solid #F25C2A;
-    margin: 1.313rem 0;
-    width: 750px;
-    margin:6rem 4rem auto auto;
-    margin-right: 287px;
+    width: 700px;
+    margin:6rem auto 4rem auto;
  }
 
  h5 {
  	font-family: 'Roboto';
- 	font-size: 1.1rem;
+ 	font-size: 1rem;
+ }
+
+ .container {
+ 	border: 1px solid #F25C2A;
+	width: 2.5rem;
+	height: 2.5rem;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+	vertical-align: center;
+	cursor: pointer; 
+ }
+
+ .container:hover {
+ 	 	border: 1px solid #F25C2A;
+	width: 2.5rem;
+	height: 2.5rem;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+	vertical-align: center;
+	cursor: pointer;
+	opacity: .4;
+ }
+
+ .copyright {
+	font-family: 'Roboto';
+ 	font-size: 1rem;
+ 	opacity: .5;
+ 	margin: 10px 0 10rem 0;
  }
